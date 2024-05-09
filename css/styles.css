@@ -102,7 +102,7 @@ h4{
     font-weight: 700;
 } 
 
-/* dale esfecto hover a un link/ text  h4 de saber mas*/
+/* dale esfecto hover a un link/ text h4 de saber mas*/
 
 .linkSaberMas{
     text-align: center;
@@ -118,7 +118,6 @@ h4{
     background-color:red;
     color:#F2C879;
 }
-
 
 p.principal {
     color: #BF7E04;
@@ -329,7 +328,7 @@ a{
     width: 50%;
     margin: 0 auto;
 }
-.poza-difusores{
+.posa-difusores{
     display: block;
     /* border: solid red; */
     width: 50%;
