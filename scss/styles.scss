@@ -3,11 +3,76 @@
     margin: 0;
     padding: 0;
 }
+@import "colors";
+@import"media-queries";
+@import "header";
+@import "main";
+@import "footer";
+@import "form";
+@import "variables";
+
+
 html{
     font-size: 62,5%;
+
+    body{
+        font-size: 16px;
+        
+    }
+    .fondoconsejos {
+    background-color:#F2C49B;
+    }
+    .colorcontacto{
+        background-image: linear-gradient(to left, $coco, $merenguequemado);
+    }
+
+
+h1 {
+    color: #8C6645;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
 }
-body header img{
-    display: block;
-    width: 30%;
-    margin: 0 auto;
+h2 {
+    color: #F2C879;
+    text-align: center;
 }
+.otro-color{
+    background-color: #8C6645;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-family:"Roboto", sans-serif;
+    font-size: 2rem;
+    margin: 2rem;
+}
+h4{
+    font-size: 1.5rem ;
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+} 
+
+p.principal {
+    color: #BF7E04;
+}
+
+p{
+    font-family:"Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    text-wrap: balance;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #BF7E04;
+
+}
+}
+
+
+
