@@ -128,7 +128,13 @@ a {
   color: #8C6645;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .seccion .seccion__consejo--lista {
+    font-size: 1rem;
+    padding: 2rem;
+  }
 }
 
 .linkSaberMas {
@@ -151,10 +157,11 @@ a {
   font-style: normal;
   text-align: center;
   color: #BF7E04;
+  padding: 5rem;
 }
 .pts img {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 @media screen and (min-width: 1024px) {
@@ -162,6 +169,7 @@ a {
     display: block;
     width: 30%;
     margin: 0 auto;
+    padding: 4rem;
   }
 }
 .pts .fragancias {
@@ -387,7 +395,18 @@ html p {
   text-align: justify;
   text-wrap: balance;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   font-size: 1.6rem;
   color: #BF7E04;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html p {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  html p {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -56,16 +56,6 @@ header nav ul{
     text-align: center;
 }
 
-/* lista de navegacion */
-/* nav ul li{
-    color: #8C6645;
-    font-size: 1rem;
-    font-family:"Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    text-align: center;
-    list-style-type:none;
-} */
 
 /* todos los h */
 h1 {
@@ -134,7 +124,7 @@ a{
 }
 .difusores img{
     display: block;
-    /* border: solid red; */
+
     width: 60%;
     margin: 0 auto;
 }
@@ -143,8 +133,7 @@ a{
 .galeria {
     display: grid;
     grid-gap: 1rem;
-    /* justify-items: center; */
-    /* align-items: center; */
+
 }
 .galeria img{
     width: 100%;
@@ -153,19 +142,6 @@ a{
     border-radius: 1%;
 }
 
-/* .img-nos{
-    display: block;
-    border: solid red;
-    width: 90%;
-    margin: 0 auto;
-}
-.opciones img {
-    display: block;
-    border: solid red;
-    width: 90%;
-    margin:  0 auto;
-    padding: 1rem;
-} */
 
 @media screen and(min-width: 320px) and (max-width: 766px) {
     .galeria{
@@ -328,12 +304,6 @@ a{
     margin: 0 auto;
 }
 
-/* ++++++++++++++++++Consejos+++++++++++++++++ */
-
-/* .lista {
-    padding: 2rem;
-    color: #8C6645;
-} */
 
 /*++++++++++ aplicar BEM en consejos+++++++++ */
 
@@ -354,13 +324,6 @@ a{
     font-size: 1.5rem;
 
 }
-/* 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    text-align: center;
-*/
 /* agregarle color al fondo solo en 1 seccion (Consejos) */
 .fondoconsejos {
     background-color:#F2C49B;

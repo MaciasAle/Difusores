@@ -41,9 +41,13 @@ a{
         color: #8C6645;
         font-weight: 600;
         font-family:"Roboto", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
+
+        @include mobile{
+            font-size: 1rem;
+            padding: 2rem;
         }
-    
+        }
 
 }
 
@@ -69,17 +73,19 @@ a{
         font-style: normal;
         text-align: center;
         color: #BF7E04;
+        padding: 5rem;
     }
 
     img {
         display: block;
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
 
         @media  screen and (min-width: 1024px){
             display:block;
             width: 30%;
             margin: 0 auto;
+            padding: 4rem;
         }
     }
 
